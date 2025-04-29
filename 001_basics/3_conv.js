@@ -1,46 +1,68 @@
-/*let score = 33
-console.log(typeof score);
-console.log(typeof(score));
-let va = Number(score);
-console.log(va);
-*/
-//NaN - never believe in numbber
-//
-//33abc - NaN
-// u can convert number to boolean also like 1 to true and 0 to false
-// empty -- false - boolean
-let va = "";
-//console.log(Boolean(va));
+let score = "hitesh"
+
+//console.log(typeof score);
+//console.log(typeof(score));
+
+let valueInNumber = Number(score)
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
 
 
+// "33" => 33
+// "33abc" => NaN
+//  true => 1; false => 0
 
+let isLoggedIn = "hitesh"
 
-//Get negative value
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log(booleanIsLoggedIn);
 
-let s = 32
-let ne = -s
-//console.log(ne)
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
 
+let someNumber = 33
 
-//console.table([2+2, 2*3 , 2/4])
+let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
+// *********************** Operations ***********************
 
-//concatanation of string
+let value = 3
+let negValue = -value
+// console.log(negValue);
 
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
 
+let str1 = "hello"
+let str2 = " hitesh"
 
-//console.log("1" + 2);
-//console.log("1" + 2 + 2);
-//console.log(1 + 2 + "3");
-//don't depend like this
+let str3 = str1 + str2
+// console.log(str3);
 
-console.log(+true)  // true + not possible
-//+'' = 1
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
 
-//focus onnn readibility not on writing in shortcut
+// console.log( (3 + 4) * 5 % 3);
 
+// console.log(+true);
+// console.log(+"");
 
+let num1, num2, num3
 
-let gamecounter = 100;
-++gamecounter;
-console.log(gamecounter);
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
