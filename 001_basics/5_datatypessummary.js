@@ -50,3 +50,31 @@ const myFunction = function(){
     console.log("Hello world");
 }
 let ca = myFunction();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//stack = primitive  and heap - non primitive
+
+let myu = "hello"
+let ani = myu
+ani = "helo"
+let userne = {
+    userEmail: "sdsd",
+    upi: "sdsfsf"
+}
+
+let usere = userne
+//heap mai same reference hota hai
+usere.userEmail = "hit@gmail.com"
+
+console.table([usere.userEmail, userne.userEmail])
